@@ -1,3 +1,25 @@
-.clock {
+/* tags */
+html {
+  background-image: url(https://visitgreenland.com/wp-content/uploads/glacierlodge-eqi/an-overview-of-the-eqi-glacier-lodge-camp-with-the-glacier-in-the-background-in-north-greenland-1500x1000.jpg);
+  /* Resize the background image to cover the entire container,
+  even if it has to stretch the image or cut a little bit off one of the edges */
+  background-size: cover;
+  font-family: 'helvetica neue';
+  text-align: center;
+  font-size: 10px;
+}
 
+body {
+  margin 0;
+  font-size: 2rem;
+  /* the flex-direction property defines in which direction
+  the container wants to stack the flex items */
+  display: flex;
+  /* the flex property is the sub-property of the flexbox */
+  /* the flex property sets the flexible length on flexible items */
+  flex: 1;
+  min-height: 100vh;
+  /* the align-items property is used to align the flex items vertically */
+  /* the center value aligns the flex items in the middle of the container */
+  align-items: center;
 }
